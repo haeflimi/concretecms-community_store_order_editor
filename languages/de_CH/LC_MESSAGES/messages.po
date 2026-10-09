@@ -1,0 +1,860 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the community_store_order_editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: community_store_order_editor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-09 22:02+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de_CH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: community_store_order_editor/controller.php:28
+msgid "Community Store Order Editor"
+msgstr "Community Store Bestellungs-Editor"
+
+#: community_store_order_editor/controller.php:33
+msgid "Create and fully edit Community Store orders from the dashboard."
+msgstr "Community-Store-Bestellungen im Dashboard erstellen und vollständig bearbeiten."
+
+#: community_store_order_editor/controller.php:47
+msgid "This package requires that Community Store be installed."
+msgstr "Dieses Paket setzt voraus, dass Community Store installiert ist."
+
+#: community_store_order_editor/controller.php:86
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:61
+msgid "Order Editor"
+msgstr "Bestellungs-Editor"
+
+#: community_store_order_editor/controller.php:86
+msgid "Create, bulk-create and edit orders"
+msgstr "Bestellungen erstellen, sammelweise erstellen und bearbeiten"
+
+#: community_store_order_editor/src/Service/OrderEditor.php:60
+msgid "Created in the order editor"
+msgstr "Im Bestellungs-Editor erstellt"
+
+#: community_store_order_editor/src/Service/OrderEditor.php:84
+msgid "Unknown customer."
+msgstr "Unbekannter Kunde."
+
+#: community_store_order_editor/src/Service/OrderEditor.php:95
+msgid "Invalid order date."
+msgstr "Ungültiges Bestelldatum."
+
+#: community_store_order_editor/src/Service/OrderEditor.php:106
+msgid "Unknown payment method."
+msgstr "Unbekannte Zahlungsart."
+
+#: community_store_order_editor/src/Service/OrderEditor.php:125
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:133
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:143
+msgid "Shipping"
+msgstr "Versand"
+
+#: community_store_order_editor/src/Service/OrderEditor.php:126
+#: community_store_order_editor/src/Service/OrderEditor.php:131
+msgid "Tax"
+msgstr "MwSt."
+
+#: community_store_order_editor/src/Service/OrderEditor.php:127
+msgid "Included tax"
+msgstr "Enthaltene MwSt."
+
+#: community_store_order_editor/src/Service/OrderEditor.php:138
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:78
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:123
+msgid "Total"
+msgstr "Total"
+
+#: community_store_order_editor/src/Service/OrderEditor.php:179
+msgid "Unknown product."
+msgstr "Unbekanntes Produkt."
+
+#: community_store_order_editor/src/Service/OrderEditor.php:202
+msgid "The item needs a name."
+msgstr "Die Position braucht einen Namen."
+
+#: community_store_order_editor/src/Service/OrderEditor.php:234
+#, php-format
+msgid "Item #%s needs a name."
+msgstr "Position #%s braucht einen Namen."
+
+#: community_store_order_editor/src/Service/OrderEditor.php:239
+#: community_store_order_editor/src/Service/BulkOrders.php:233
+msgid "Quantity"
+msgstr "Menge"
+
+#: community_store_order_editor/src/Service/OrderEditor.php:242
+#: community_store_order_editor/src/Service/BulkOrders.php:243
+#: community_store_order_editor/src/Service/BulkOrders.php:249
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:178
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:225
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:240
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:96
+msgid "Price"
+msgstr "Preis"
+
+#: community_store_order_editor/src/Service/OrderEditor.php:304
+msgid "Unknown status."
+msgstr "Unbekannter Status."
+
+#: community_store_order_editor/src/Service/OrderEditor.php:317
+msgid "The order is already paid."
+msgstr "Die Bestellung ist bereits bezahlt."
+
+#: community_store_order_editor/src/Service/OrderEditor.php:411
+msgid "The order is paid: reverse the payment before changing its items."
+msgstr "Die Bestellung ist bezahlt: Mache die Zahlung rückgängig, bevor du ihre Positionen änderst."
+
+#: community_store_order_editor/src/Service/OrderEditor.php:422
+msgid "This item is not part of the order."
+msgstr "Diese Position gehört nicht zur Bestellung."
+
+#: community_store_order_editor/src/Service/OrderEditor.php:449
+#: community_store_order_editor/src/Service/BulkOrders.php:269
+#, php-format
+msgid "%s must be a number."
+msgstr "%s muss eine Zahl sein."
+
+#: community_store_order_editor/src/Service/OrderEditor.php:461
+msgid "The quantity must be greater than zero."
+msgstr "Die Menge muss grösser als null sein."
+
+#: community_store_order_editor/src/Service/BulkOrders.php:53
+#: community_store_order_editor/src/Service/BulkOrders.php:55
+#, php-format
+msgid "%d user"
+msgid_plural "%d users"
+msgstr[0]  "%d Benutzer"
+msgstr[1]  "%d Benutzer"
+
+#: community_store_order_editor/src/Service/BulkOrders.php:55
+msgid "All active users"
+msgstr "Alle aktiven Benutzer"
+
+#: community_store_order_editor/src/Service/BulkOrders.php:96
+msgid "Missing batch id, please reload the page."
+msgstr "Sammel-ID fehlt, bitte lade die Seite neu."
+
+#: community_store_order_editor/src/Service/BulkOrders.php:100
+msgid "Please select a group."
+msgstr "Bitte wähle eine Gruppe."
+
+#: community_store_order_editor/src/Service/BulkOrders.php:104
+msgid "Add at least one item."
+msgstr "Füge mindestens eine Position hinzu."
+
+#: community_store_order_editor/src/Service/BulkOrders.php:108
+msgid "A label for the batch is required."
+msgstr "Eine Bezeichnung für den Sammelauftrag ist erforderlich."
+
+#: community_store_order_editor/src/Service/BulkOrders.php:112
+msgid "The selection has no active users."
+msgstr "Die Auswahl enthält keine aktiven Benutzer."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:10
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:48
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:29
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:267
+msgid "Cancelled"
+msgstr "Storniert"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:13
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:48
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:31
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:265
+msgid "Refunded"
+msgstr "Rückerstattet"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:16
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:48
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:33
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:263
+msgid "Paid"
+msgstr "Bezahlt"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:19
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:48
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:35
+msgid "Payment pending"
+msgstr "Zahlung ausstehend"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:21
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:48
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:37
+msgid "Unpaid"
+msgstr "Unbezahlt"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:25
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:258
+msgid "Bulk-create orders"
+msgstr "Sammelbestellungen erstellen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:26
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:67
+msgid "New order"
+msgstr "Neue Bestellung"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:31
+#, php-format
+msgid "Showing the orders of batch %s."
+msgstr "Bestellungen des Sammelauftrags %s werden angezeigt."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:32
+msgid "Show all orders"
+msgstr "Alle Bestellungen anzeigen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:41
+msgid "Search"
+msgstr "Suchen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:42
+msgid "Order id, transaction reference, name, e-mail"
+msgstr "Bestell-ID, Transaktionsreferenz, Name, E-Mail"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:47
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:260
+msgid "Payment state"
+msgstr "Zahlungsstatus"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:48
+msgid "All"
+msgstr "Alle"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:53
+msgid "Customer id"
+msgstr "Kunden-ID"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:54
+msgid "User id"
+msgstr "Benutzer-ID"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:61
+msgid "Filter"
+msgstr "Filtern"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:72
+msgid "Order #"
+msgstr "Bestellung #"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:73
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:334
+msgid "Date"
+msgstr "Datum"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:74
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:63
+msgid "Customer"
+msgstr "Kunde"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:75
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:73
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:43
+msgid "Payment method"
+msgstr "Zahlungsart"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:76
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:45
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:328
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:334
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:52
+msgid "Status"
+msgstr "Status"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:77
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:42
+msgid "Payment"
+msgstr "Zahlung"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:93
+#, php-format
+msgid "User id %s"
+msgstr "Benutzer-ID %s"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:94
+#, php-format
+msgid "batch %s"
+msgstr "Sammelauftrag %s"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:101
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:102
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:22
+msgid "Store view"
+msgstr "Store-Ansicht"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor.php:107
+msgid "No orders match."
+msgstr "Keine passenden Bestellungen."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:24
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:11
+msgid "Back to list"
+msgstr "Zurück zur Liste"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:43
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:147
+msgid "Order total"
+msgstr "Bestelltotal"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:44
+#, php-format
+msgid "Items (%d lines)"
+msgstr "Positionen (%d Zeilen)"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:48
+#, php-format
+msgid "Created by bulk batch %s (%s)."
+msgstr "Erstellt durch Sammelauftrag %s (%s)."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:51
+#, php-format
+msgid "The order total differs by %s from items + shipping + tax. Use \"Recalculate total\" below or correct the total by hand."
+msgstr "Das Bestelltotal weicht um %s von Positionen + Versand + MwSt. ab. Nutze unten «Total neu berechnen» oder korrigiere das Total von Hand."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:60
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:35
+msgid "Order"
+msgstr "Bestellung"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:65
+msgid "Leave empty for an order without a user account."
+msgstr "Leer lassen für eine Bestellung ohne Benutzerkonto."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:65
+#, php-format
+msgid "Current: %s"
+msgstr "Aktuell: %s"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:68
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:38
+msgid "Order date"
+msgstr "Bestelldatum"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:74
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:44
+msgid "-- none / free text --"
+msgstr "-- keine / Freitext --"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:77
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:47
+msgid "Payment method name on the order"
+msgstr "Name der Zahlungsart auf der Bestellung"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:78
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:48
+msgid "taken from the method when empty"
+msgstr "wird aus der Zahlungsart übernommen, wenn leer"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:83
+msgid "Shipping method"
+msgstr "Versandart"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:87
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:278
+msgid "Transaction reference"
+msgstr "Transaktionsreferenz"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:92
+msgid "Shipping instructions"
+msgstr "Versandhinweise"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:96
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:56
+msgid "Notes"
+msgstr "Notizen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:101
+msgid "Initial status"
+msgstr "Anfangsstatus"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:110
+msgid "Contact and addresses"
+msgstr "Kontakt und Adressen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:113
+msgid "E-mail"
+msgstr "E-Mail"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:114
+msgid "taken from the user account when empty"
+msgstr "wird aus dem Benutzerkonto übernommen, wenn leer"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:117
+msgid "Billing first name"
+msgstr "Rechnung Vorname"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:118
+msgid "Billing last name"
+msgstr "Rechnung Nachname"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:119
+msgid "Billing company"
+msgstr "Rechnung Firma"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:120
+msgid "Billing phone"
+msgstr "Rechnung Telefon"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:121
+msgid "Shipping first name"
+msgstr "Versand Vorname"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:122
+msgid "Shipping last name"
+msgstr "Versand Nachname"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:123
+msgid "Shipping company"
+msgstr "Versand Firma"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:124
+msgid "VAT number"
+msgstr "MwSt.-Nummer"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:131
+msgid "Addresses (read-only here, edit them on the store view):"
+msgstr "Adressen (hier nur lesbar, bearbeite sie in der Store-Ansicht):"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:132
+msgid "Billing"
+msgstr "Rechnung"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:140
+msgid "Totals"
+msgstr "Summen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:144
+msgid "Tax (added)"
+msgstr "MwSt. (zuzüglich)"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:145
+msgid "Tax (included)"
+msgstr "MwSt. (inbegriffen)"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:146
+msgid "Tax label"
+msgstr "MwSt.-Bezeichnung"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:151
+msgid "Set the total from items + shipping + added tax when saving"
+msgstr "Beim Speichern das Total aus Positionen + Versand + zuzüglicher MwSt. setzen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:159
+msgid "Create order"
+msgstr "Bestellung erstellen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:159
+msgid "Save order"
+msgstr "Bestellung speichern"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:169
+msgid "Items"
+msgstr "Positionen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:172
+msgid "The order is paid. Reverse the payment to change its items."
+msgstr "Die Bestellung ist bezahlt. Mache die Zahlung rückgängig, um ihre Positionen zu ändern."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:178
+msgid "Id"
+msgstr "ID"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:178
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:237
+msgid "Name"
+msgstr "Name"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:178
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:238
+msgid "SKU"
+msgstr "Artikelnr."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:178
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:224
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:239
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:96
+msgid "Qty"
+msgstr "Anz."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:178
+msgid "Subtotal"
+msgstr "Zwischensumme"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:188
+#, php-format
+msgid "Product %s"
+msgstr "Produkt %s"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:199
+msgid "Remove this item?"
+msgstr "Diese Position entfernen?"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:199
+msgid "Remove"
+msgstr "Entfernen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:204
+msgid "No items yet."
+msgstr "Noch keine Positionen."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:207
+msgid "Items total"
+msgstr "Total Positionen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:211
+msgid "Save items"
+msgstr "Positionen speichern"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:218
+msgid "Add a product"
+msgstr "Produkt hinzufügen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:223
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:74
+msgid "Product"
+msgstr "Produkt"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:225
+msgid "list"
+msgstr "Liste"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:226
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:241
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:228
+msgid "Leave the price empty to use the product's current price."
+msgstr "Lass den Preis leer, um den aktuellen Preis des Produkts zu verwenden."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:232
+msgid "Add a free-text line"
+msgstr "Freitext-Zeile hinzufügen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:243
+msgid "A negative price books a reduction."
+msgstr "Ein negativer Preis bucht eine Reduktion."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:251
+msgid "Recalculate total"
+msgstr "Total neu berechnen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:252
+#, php-format
+msgid "items %s + shipping %s + added tax %s"
+msgstr "Positionen %s + Versand %s + zuzügl. MwSt. %s"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:269
+msgid "External payment"
+msgstr "Externe Zahlung"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:270
+#, php-format
+msgid "requested %s"
+msgstr "angefordert %s"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:277
+msgid "Paid on"
+msgstr "Bezahlt am"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:279
+msgid "Mark paid"
+msgstr "Als bezahlt markieren"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:280
+msgid "Runs the store's payment steps (stock, user groups, store credit, tickets), like \"Mark Paid\" on the store view."
+msgstr "Führt die Zahlungsschritte des Stores aus (Bestand, Benutzergruppen, Guthaben, Tickets), wie «Als bezahlt markieren» in der Store-Ansicht."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:286
+msgid "Reverse the payment?"
+msgstr "Zahlung rückgängig machen?"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:286
+msgid "Reverse payment"
+msgstr "Zahlung rückgängig machen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:294
+msgid "Refund reason"
+msgstr "Grund der Rückerstattung"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:295
+msgid "Mark refunded"
+msgstr "Als rückerstattet markieren"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:301
+msgid "Reverse refund"
+msgstr "Rückerstattung rückgängig machen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:309
+msgid "Cancel this order? Store credit and event tickets linked to it will be released."
+msgstr "Diese Bestellung stornieren? Damit verknüpftes Guthaben und Event-Tickets werden freigegeben."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:309
+msgid "Cancel order"
+msgstr "Bestellung stornieren"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:315
+msgid "Reverse cancellation"
+msgstr "Stornierung rückgängig machen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:323
+msgid "Fulfilment status"
+msgstr "Abwicklungsstatus"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:329
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:334
+msgid "Comment"
+msgstr "Kommentar"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:330
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:334
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:123
+msgid "By"
+msgstr "Von"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:349
+msgid "Delete"
+msgstr "Löschen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:353
+#, php-format
+msgid "Delete order #%s with all its items? This cannot be undone."
+msgstr "Bestellung #%s mit allen Positionen löschen? Dies kann nicht rückgängig gemacht werden."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:353
+msgid "Delete order"
+msgstr "Bestellung löschen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/edit.php:354
+msgid "Removes the order, its items, attributes, discounts and status history. Nothing is refunded or re-stocked."
+msgstr "Entfernt die Bestellung, ihre Positionen, Attribute, Rabatte und den Statusverlauf. Es wird nichts rückerstattet und kein Bestand zurückgebucht."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:20
+msgid "Who gets an order"
+msgstr "Wer eine Bestellung erhält"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:23
+msgid "Group"
+msgstr "Gruppe"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:24
+msgid "-- select --"
+msgstr "-- auswählen --"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:25
+msgid "One order is created for every active user of the selection."
+msgstr "Für jeden aktiven Benutzer der Auswahl wird eine Bestellung erstellt."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:28
+msgid "Batch label"
+msgstr "Bezeichnung des Sammelauftrags"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:29
+msgid "e.g. Membership fee 2026"
+msgstr "z. B. Mitgliederbeitrag 2026"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:30
+msgid "Shown on every created order and in the batch list."
+msgstr "Wird auf jeder erstellten Bestellung und in der Liste der Sammelaufträge angezeigt."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:61
+msgid "Mark the orders as paid right away"
+msgstr "Bestellungen sofort als bezahlt markieren"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:62
+msgid "Runs the store's payment steps for every order; the batch id becomes the transaction reference."
+msgstr "Führt die Zahlungsschritte des Stores für jede Bestellung aus; die Sammel-ID wird zur Transaktionsreferenz."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:69
+msgid "Items on every order"
+msgstr "Positionen auf jeder Bestellung"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:75
+msgid "-- select a product --"
+msgstr "-- Produkt auswählen --"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:77
+msgid "list price"
+msgstr "Listenpreis"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:78
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:90
+msgid "Remove line"
+msgstr "Zeile entfernen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:83
+msgid "Free text"
+msgstr "Freitext"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:85
+msgid "Name, e.g. Membership fee 2026"
+msgstr "Name, z. B. Mitgliederbeitrag 2026"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:86
+msgid "SKU (optional)"
+msgstr "Artikelnr. (optional)"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:89
+msgid "amount"
+msgstr "Betrag"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:96
+msgid "Type"
+msgstr "Typ"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:96
+msgid "Product / name"
+msgstr "Produkt / Name"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:103
+msgid "Add product line"
+msgstr "Produktzeile hinzufügen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:104
+msgid "Add free-text line"
+msgstr "Freitext-Zeile hinzufügen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:105
+msgid "Lines without a product or without a name are ignored. Product lines use the product's current price unless a price is given. Free-text lines need a name and a price; a negative price books a reduction. Quantities and prices accept a comma as decimal separator."
+msgstr "Zeilen ohne Produkt oder ohne Namen werden ignoriert. Produktzeilen verwenden den aktuellen Preis des Produkts, sofern kein Preis angegeben ist. Freitext-Zeilen brauchen einen Namen und einen Preis; ein negativer Preis bucht eine Reduktion. Mengen und Preise akzeptieren ein Komma als Dezimaltrennzeichen."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:114
+msgid "Create orders"
+msgstr "Bestellungen erstellen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:121
+msgid "Past batches"
+msgstr "Bisherige Sammelaufträge"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:123
+msgid "Batch"
+msgstr "Sammelauftrag"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:123
+msgid "Label"
+msgstr "Bezeichnung"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:123
+msgid "Created"
+msgstr "Erstellt"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:123
+msgid "Orders"
+msgstr "Bestellungen"
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:142
+#, php-format
+msgid "%s users will get an order."
+msgstr "%s Benutzer erhalten eine Bestellung."
+
+#: community_store_order_editor/single_pages/dashboard/store/order_editor/bulk.php:143
+#, php-format
+msgid "Create an order for %s users?"
+msgstr "Eine Bestellung für %s Benutzer erstellen?"
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:78
+#, php-format
+msgid "Order #%s"
+msgstr "Bestellung #%s"
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:99
+msgid "Order saved."
+msgstr "Bestellung gespeichert."
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:102
+#, php-format
+msgid "Order #%s created. Now add its items."
+msgstr "Bestellung #%s erstellt. Füge jetzt ihre Positionen hinzu."
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:127
+msgid "Item added."
+msgstr "Position hinzugefügt."
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:148
+msgid "Item removed."
+msgstr "Position entfernt."
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:152
+msgid "Items saved."
+msgstr "Positionen gespeichert."
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:168
+#, php-format
+msgid "Total recalculated: %s"
+msgstr "Total neu berechnet: %s"
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:181
+msgid "Status updated."
+msgstr "Status aktualisiert."
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:206
+msgid "Order marked as paid."
+msgstr "Bestellung als bezahlt markiert."
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:210
+msgid "Payment reversed."
+msgstr "Zahlung rückgängig gemacht."
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:214
+msgid "Order marked as refunded."
+msgstr "Bestellung als rückerstattet markiert."
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:218
+msgid "Refund reversed."
+msgstr "Rückerstattung rückgängig gemacht."
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:222
+msgid "Order cancelled."
+msgstr "Bestellung storniert."
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:226
+msgid "Cancellation reversed."
+msgstr "Stornierung rückgängig gemacht."
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:229
+msgid "Unknown action."
+msgstr "Unbekannte Aktion."
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:285
+#, php-format
+msgid "%d order created"
+msgid_plural "%d orders created"
+msgstr[0]  "%d Bestellung erstellt"
+msgstr[1]  "%d Bestellungen erstellt"
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:287
+#, php-format
+msgid "%d users already had an order from this batch."
+msgstr "%d Benutzer hatten bereits eine Bestellung aus diesem Sammelauftrag."
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:302
+#, php-format
+msgid "Order #%s deleted."
+msgstr "Bestellung #%s gelöscht."
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:313
+msgid "disabled"
+msgstr "deaktiviert"
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:328
+msgid "inactive"
+msgstr "inaktiv"
+
+#: community_store_order_editor/controllers/single_page/dashboard/store/order_editor.php:368
+msgid "Unknown order."
+msgstr "Unbekannte Bestellung."
